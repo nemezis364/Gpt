@@ -14,7 +14,7 @@ jobs:
       - name: Pobierz projekt
         uses: actions/checkout@v4
       - name: Rozpakuj projekt
-        run: unzip -q RouletteVision_GitHub_AutoAPK.zip
+        run: unzip -q RouletteVision_Stage2_AutoAPK.zip
       - name: Zainstaluj Java 17
         uses: actions/setup-java@v4
         with:
